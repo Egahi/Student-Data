@@ -18,22 +18,22 @@ using namespace std;
 
 int main (void)
 {
-    do
-    {
-					 // welcome user
-			    welcome();
-								
-						// get detials of user
-			    getData();
+	do
+	{
+		// welcome user
+		welcome();
 
-					// perform all calculations
-        gpCalc();
+		// get detials of user
+		getData();
 
-					 // print details of user and calculated results
-        print();
+		// perform all calculations
+		gpCalc();
 
-				// prompt to run again
-    } while (runAgain());
+		// print details of user and calculated results
+		print();
+
+	// prompt to run again
+	} while (runAgain());
 
     return 0;
 }
