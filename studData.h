@@ -6,18 +6,18 @@
 
 struct identity
 {
-				char surname[1000] = {'\0'};
-				char otherNames[5000] = {'\0'};
-				char department[50];
-				int matric;
+	char surname[1000] = {'\0'};
+	char otherNames[5000] = {'\0'};
+	char department[50];
+	int matric;
 };
 
 struct record
 {
-				char code[20] = {'\0'};
-				int score;
-				char grade;
-				int unit;
+	char code[20] = {'\0'};
+	int score;
+	char grade;
+	int unit;
 };
 
 void welcome(void);
